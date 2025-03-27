@@ -1,0 +1,9 @@
+p1 = int(input("Qual é o primeiro termo dessa PA?"))
+rz = int(input('Qual é a razão dessa PA? '))
+termo = p1
+cont = 1
+while cont <= 10:
+    print ('{}'.format(termo),end='')
+    print ('>' if cont < 10 else '.',end='')
+    termo += rz
+    cont +=1
